@@ -1,0 +1,31 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply to body and html to fill the viewport height */
+  html, body {
+    height: 100%;
+  }
+  
+  /* Main container for the entire page */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Main content area should take all the remaining space */
+  main {
+    flex: 1;
+  }
+  
+  /* Footer styling */
+  footer {
+    background: #000; /* Example background color */
+    color: #fff; /* Example text color */
+    text-align: center;
+    padding: 1em 0;
+  }
+  

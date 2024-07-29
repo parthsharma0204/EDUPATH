@@ -1,0 +1,7 @@
+.banner-box img {
+    width: 100%;
+    height: 50vh; /* This ensures the image takes up 15% of the viewport height */
+    object-fit: cover; /* This makes sure the image covers the area without distorting the aspect ratio */
+    margin-top: calc(var(--navbar-height)); /* Adjust the top margin to be below the navbar, assuming --navbar-height is a CSS variable representing the navbar's height */
+  }
+  
